@@ -1,0 +1,117 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Task 1: User Registration Form */
+#registration-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    width: 300px;
+}
+
+#registration-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#registration-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registration-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Task 2: Enhanced Navigation Menu */
+.navigation-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 15px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation-menu li {
+    margin: 0;
+}
+
+.navigation-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navigation-menu a:hover {
+    background-color: #007bff;
+}
+
+/* Task 3: Styled Table */
+#data-table {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#data-table h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e9f5ff;
+}
